@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning" href="#">Denhpc06669</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white active" href="./bai1.html">Bài 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./bai2.html">Bài 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./bai3.html">Bài 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./bai4.html">Bài 4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./bai5.html">Bài 5</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <table class="table">
+    <tr>
+      <th>Hàm</th>
+      <th>Giá trị truyền vào</th>
+      <th>Giá trị truyền vào</th>
+      <th></th>
+      <th>Kết quả</th>
+    </tr>
+    <tr>
+      <td>Phép nhân</td>
+      <td>
+        <input class="form-control" type="number" id="multiplyNum1" placeholder="Nhập vào số thứ nhất" />
+      </td>
+      <td>
+        <input class="form-control" type="number" id="multiplyNum2" placeholder="Nhập vào số thứ 2" />
+      </td>
+      <td><button class="btn btn-primary" onclick="multiplyNumbers()">Tính toán</button></td>
+      <td id="multiplyResult"></td>
+    </tr>
+    <tr>
+      <td>Chuyển đổi độ F qua độ C</td>
+      <td>
+        <input class="form-control" type="number" id="toCelsiusInput" placeholder="Nhập vào độ F" />
+      </td>
+      <td></td>
+      <td><button class="btn btn-primary" onclick="convertToCelsius()">Tính toán</button></td>
+      <td id="toCelsiusResult"></td>
+    </tr>
+    <tr>
+      <td>Thêm 0 vào </td>
+      <td><input class="form-control" type="number" id="padZerosNum" placeholder="Nhập vào số bất kì" /></td>
+      <td>
+        <input class="form-control" type="number" id="padZerosTotalLen" placeholder="Tổng độ dài chuỗi" />
+      </td>
+      <td><button class="btn btn-primary" onclick="addZeros()">Tính toán</button></td>
+      <td id="padZerosResult"></td>
+    </tr>
+    <tr>
+      <td>Lũy thừa</td>
+      <td><input class="form-control" type="number" id="powerBase" placeholder="Cơ số" /></td>
+      <td>
+        <input class="form-control" type="number" id="powerExponent" placeholder="Lũy thừa" />
+      </td>
+      <td><button class="btn btn-primary" onclick="calculatePower()">Tính toán</button></td>
+      <td id="powerResult"></td>
+    </tr>
+    <tr>
+      <td>Chào hỏi</td>
+      <td><input class="form-control" type="text" id="greetInput" placeholder="Hãy nhập tên vào" /></td>
+      <td></td>
+      <td><button class="btn btn-primary" onclick="greetUser()">Chào</button></td>
+      <td id="greetResult"></td>
+    </tr>
+  </table>
+<script src="js/lab3_1.js"></script>
+</body>
+</html>

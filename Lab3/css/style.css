@@ -1,0 +1,6 @@
+.active {
+    background-color: whitesmoke;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 5px;
+}
