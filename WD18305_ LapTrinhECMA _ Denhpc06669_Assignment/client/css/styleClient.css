@@ -1,0 +1,13 @@
+.navbar .dropdown-toggles::after {
+    border: none;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.menu{
+    right: 1%;
+}
+.signUp{
+    margin-top: 120px;
+}
