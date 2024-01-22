@@ -1,0 +1,91 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Rau củ"
+      },
+      {
+        "id": 2,
+        "name": "Trái cây"
+      },
+      {
+        "id": 3,
+        "name": "Thịt"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Nho",
+        "cateId": 2,
+        "price": 60000,
+        "detail": 1,
+        "image": "img/fruite-item-5.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bông cải xanh",
+        "cateId": 1,
+        "price": 50000,
+        "detail": 1,
+        "image": "img/suploxanh.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Thịt đùi lợn",
+        "cateId": 3,
+        "price": 110000,
+        "detail": 1,
+        "image": "img/thit-dui-heo.jpeg"
+      }
+  
+    ],
+    "orders": 
+    [
+      {
+        "id": 1,
+        "customerName": "Nguyễn Hoàng Đệ",
+        "customerEmail": "denhpc06669@gmail.com",
+        "customerPhone": "1234567890",
+        "createdDate": "2024-01-01",
+        "status": "1"
+      },
+      {
+        "id": 2,
+        "customerName": "Nguyễn Hoàng Trâm Anh",
+        "customerEmail": "anhnhtpc06899@gmail.com",
+        "customerPhone": "1255567890",
+        "createdDate": "2024-01-01",
+        "status": "1"
+      },
+      {
+        "id": 3,
+        "customerName": "Nguyễn Hoàng Trung",
+        "customerEmail": "trungnhpc06899@gmail.com",
+        "customerPhone": "0234567890",
+        "createdDate": "2024-01-01",
+        "status": "1"
+      }
+    ],
+  
+    "order_details":[
+      {
+        "orderId": 1,
+        "productId": 1,
+        "quantity": 1,
+        "unitPrice": 60000
+      },
+      {
+        "orderId": 2,
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 50000
+      },
+      {
+        "orderId": 3,
+        "productId": 3,
+        "quantity": 1,
+        "unitPrice": 110000
+      }
+    ]
+  }
